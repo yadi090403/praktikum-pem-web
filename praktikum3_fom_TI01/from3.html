@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .navbar {
+      background-color: white;
+      border-style: solid;
+      width: auto;
+    }
+
+    .ul-navbar {
+      display: flex;
+      list-style-type: none;
+      gap: 200px;
+    }
+
+    li {
+      padding: 1rem 1rem;
+    }
+
+    .content {
+      display: flex;
+    }
+
+    .gambar {
+      padding: 10px 5px 5px 5px;
+    }
+
+    img {
+      border-radius: 10px;
+    }
+
+    .form {
+      padding: 50px 10px 10px 130px;
+    }
+  </style>
+  <body style="background-color: #e5e7e9">
+    <hr style="color: black" fon-size="40px">
+    <tr>
+
+    </tr>
+    <div class="navbar">
+      <ul class="ul-navbar">
+        <li>
+          <a>Home |</a>
+        </li>
+        <li>
+          <a>Generate link |</a>
+        </li>
+        <li>
+          <a>Transaction History |</a>
+        </li>
+        <li>
+          <a>Policy |</a>
+        </li>
+        <li>
+          <a>Logout |</a>
+        </li>
+      </ul>
+    </div>
+    <div class="content">
+      <div class="gambar">
+        <img
+          src="mahumudi.jpg"
+          alt=""
+        />
+      </div>
+      <div class="form">
+        <table>
+          <tr>
+            <td><label for="title here">Title Here</label></td>
+            <td>
+              :
+              <input
+                type="text"
+                required
+                id="title here"
+                placeholder="Gitar A15"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="description">Description</label></td>
+            <td>
+              :
+              <textarea
+                type="text"
+                id="description"
+                placeholder="Year:          Model:        Condition:"
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="account number">Account Number</label></td>
+            <td>
+              :
+              <input
+                type="text"
+                required
+                id="account number"
+                placeholder="087866950436"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="Bank">Bank</label></td>
+            <td>
+              :
+              <select name="Bank" id="id_Bank" size="1">
+                <option selected>BTN</option>
+                <option>BNI</option>
+                <option>Mandiri</option>
+                <option>BRI</option>
+                <option>BSI</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="account holder">Account Holder</label></td>
+            <td>
+              :
+              <input
+                type="text"
+                required
+                id="account holder"
+                placeholder="Name Hare"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="Transaction">Transaction</label></td>
+            <td>: <input type="number" min="1" max="6" id="Transaction" /></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td style="color: green">
+              * if the transacation is for 3 person choose from the drop-down
+              list
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td style="color: green">
+              <input type="checkbox" id="Red Sauce" checked="" />
+              <label for="white-sauce">Send to mobile phone</label>
+            </td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td style="color: green">
+              <input type="checkbox" id="Red Sauce" checked="" />
+              <label for="white-sauce">Send to Email</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="Send to mobile phone">Send to mobile phone</label>
+            </td>
+            <td>
+              :
+              <input
+                type="text"
+                required
+                id="Send to mobile phone"
+                placeholder="377386494"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="email">Send to Email</label></td>
+            <td>
+              :
+              <input
+                type="email"
+                required
+                id="email"
+                placeholder="yadielyadi365@gmail.com"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <div style="color: green">
+             <td>
+               <a href="pembayaran.html" 
+                 ><input type="submit" value="Generate Nabr Link"
+               /></a>
+             </td>
+            </div>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
