@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    display: flex;
+    /* flex-direction: column; */
+    /* height: 100vh; */
+    text-align: center
+}
+nav {
+    background-color: aqua;
+    width: 50vh;
+    height: 100vh;
+}
+main {
+    width: 155vh;
+    
+}
+header {
+    background-color: cornflowerblue;
+    height: 10vh;
+}
+article {
+    background-color: blue;
+    height: 80vh;
+    float: right;
+    width: 55vh;
+
+}
+aside {
+    
+    background-color: darkolivegreen;
+    height: 80vh;
+    width: 100vh;
+
+}
+footer {
+    background-color: #1ce278;
+    height: 10vh;
+}

@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(156, 48, 213);
+    margin: 20px 20px 20px 20px;
+   text-align: center;
+}
+header {
+    background-color: chartreuse;
+    height: 15vh;
+}
+main {
+    margin: 20px 20px 20px 20px;
+}
+img {
+    width: 35vh;
+    margin: 30vh 30px 30px 30px;
+}
+aside {
+    background-color: crimson;
+    float: right;
+    height: 60vh;
+    width: 135vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+article {
+    background-color: red;
+    height: 60vh;
+    width: 60vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer {
+    background-color: darkgoldenrod;
+    height: 15vh;
+}
